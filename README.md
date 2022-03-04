@@ -6,6 +6,10 @@ A library that encrypts and decrypts the values of a json file (appsettings.json
 
 `string` &rarr; `cipher` &rarr; `base64`
 
+> ⚠️ 
+> The file can only be decrypted on the server where it was encrypted! 
+> Therefore, the release must contain an unencrypted appsettings.json file.
+
 ## Install
 ```powershell
 dotnet add package Neomaster.JsonEncryptor
