@@ -8,7 +8,7 @@ A library that encrypts and decrypts the values of a json file (appsettings.json
 
 > ⚠️ 
 > The file can only be decrypted on the server where it was encrypted! 
-> Therefore, the release must contain an unencrypted appsettings.json file.
+> Therefore, the release must contain the unencrypted appsettings.json file and others.
 
 ## Install
 ```powershell
